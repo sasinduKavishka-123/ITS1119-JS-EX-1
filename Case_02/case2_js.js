@@ -8,8 +8,6 @@ for(let i=0 ; i< divs.length; i++){
     divs[i].style.backgroundColor = arrayStyles[i];
 }
 
-console.log("aaaaaaaaaa");
-
 setInterval(() =>{
 
     arrayStyles.unshift(arrayStyles.pop());
